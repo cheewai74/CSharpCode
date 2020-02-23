@@ -1,0 +1,12 @@
+    public enum Color : long
+    {
+        Red,
+        Green = 50,
+        Blue
+    }
+    
+    static void Main()
+    {
+        Color color = Color.Green;
+        System.Console.WriteLine( "Color is {0}", color.ToString() );
+    }
