@@ -1,0 +1,17 @@
+VSCODE:
+.NetCore (https://dotnet.microsoft.com/download/dotnet-core/5.0)
+PackShap (From VSCode: Setting > Extensions )
+
+Setup:
+Create Project > 1. Class Library
+                 2. NUnit 3 Test Project
+                 3. Solution
+
+
+Commands:
+dotnet sln add [project]
+E.g: 
+dotnet sln add framework
+.
+.
+dotnet build
