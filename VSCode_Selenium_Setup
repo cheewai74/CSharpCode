@@ -15,3 +15,7 @@ dotnet sln add framework
 .
 .
 dotnet build
+
+dotnet test
+
+dotnet restore (When add new packages)
